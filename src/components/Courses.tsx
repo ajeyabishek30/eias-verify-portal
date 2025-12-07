@@ -18,7 +18,7 @@ const courses = [
   },
   {
     icon: Briefcase,
-    title: "Business Management",
+    title: "Global Business Management",
     description:
       "Develop leadership and management skills covering marketing, entrepreneurship, and international business concepts.",
     duration: "12 Months",
