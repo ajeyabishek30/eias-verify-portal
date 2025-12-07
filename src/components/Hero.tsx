@@ -68,9 +68,8 @@ const Hero = () => {
             </Button>
             <Button
               asChild
-              variant="outline"
               size="lg"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8"
+              className="bg-gold hover:bg-gold-light text-navy-dark font-semibold px-8 shadow-gold transition-all duration-300 hover:scale-105"
             >
               <a href="#verify">Verify Certificate</a>
             </Button>
@@ -91,20 +90,6 @@ const Hero = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in"
-          style={{ animationDelay: "1.2s" }}
-        >
-          <a
-            href="#courses"
-            className="flex flex-col items-center text-primary-foreground/60 hover:text-gold transition-colors"
-          >
-            <span className="text-sm mb-2">Scroll to explore</span>
-            <ArrowDown className="h-5 w-5 animate-bounce" />
-          </a>
         </div>
       </div>
     </section>

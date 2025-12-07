@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo & About */}
           <div>
-            <img src={logo} alt="EIAS Logo" className="h-16 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="EIAS Logo" className="h-16 w-auto mb-4" />
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Eastern Institute for Applied Science (Pvt) Ltd is committed to
               providing quality education and professional development in

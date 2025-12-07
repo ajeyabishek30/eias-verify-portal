@@ -80,9 +80,6 @@ const Courses = () => {
                   <span className="text-sm text-muted-foreground">
                     Duration: <span className="font-medium text-foreground">{course.duration}</span>
                   </span>
-                  <span className="text-primary font-medium text-sm group-hover:text-gold transition-colors">
-                    Learn more →
-                  </span>
                 </div>
               </CardContent>
             </Card>
