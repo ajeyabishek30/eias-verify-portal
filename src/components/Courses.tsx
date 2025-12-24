@@ -1,4 +1,4 @@
-import { Monitor, Languages, Briefcase, Calculator, Shield } from "lucide-react";
+import { Monitor, Languages, Briefcase, Calculator, Shield, Leaf } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const courses = [
@@ -35,6 +35,13 @@ const courses = [
     title: "Cyber Security",
     description:
       "Protect digital assets with training in ethical hacking, network security, risk assessment, and compliance frameworks.",
+    duration: "12 Months",
+  },
+  {
+    icon: Leaf,
+    title: "Environmental & Sustainable Engineering",
+    description:
+      "Learn sustainable engineering practices, environmental impact assessment, renewable energy systems, and green technology solutions.",
     duration: "12 Months",
   },
 ];
