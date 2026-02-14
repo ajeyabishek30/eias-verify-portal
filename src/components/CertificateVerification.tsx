@@ -15,6 +15,14 @@ interface CertificateData {
 
 // Hardcoded certificate data based on the provided certificate
 const certificateDatabase: Record<string, CertificateData> = {
+  "EIAS/DIP/2024/1031": {
+    certificateNo: "EIAS/DIP/2024/1031",
+    studentId: "EIAS/GBM/2024/025",
+    studentName: "Thanupprasath Navaratnarajah",
+    course: "Diploma in Global Business Management",
+    issueDate: "15 March 2025",
+    programDuration: "13th February 2024 - 19th February 2025",
+  },
   "EIAS/DIP/2024/1523": {
     certificateNo: "EIAS/DIP/2024/1523",
     studentId: "EIAS/GBM/2024/017",
