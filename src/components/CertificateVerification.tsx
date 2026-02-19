@@ -55,6 +55,30 @@ const certificateDatabase: Record<string, CertificateData> = {
     issueDate: "28 March 2024",
     programDuration: "13th February 2023 - 19th February 2024",
   },
+  "EIAS/DIP/2023/1035": {
+    certificateNo: "EIAS/DIP/2023/1035",
+    studentId: "EIAS/GBM/2023/027",
+    studentName: "Suntharanathan Supalakshan",
+    course: "Diploma in Global Business Management",
+    issueDate: "28 March 2024",
+    programDuration: "13th February 2023 - 19th February 2024",
+  },
+  "EIAS/DIP/2024/1024": {
+    certificateNo: "EIAS/DIP/2024/1024",
+    studentId: "EIAS/GBM/2024/012",
+    studentName: "Pulendrakumar Arushihan",
+    course: "Diploma in Global Business Management",
+    issueDate: "15 March 2025",
+    programDuration: "13th February 2024 - 19th February 2025",
+  },
+  "EIAS/DIP/2024/1807": {
+    certificateNo: "EIAS/DIP/2024/1807",
+    studentId: "EIAS/ESE/2024/076",
+    studentName: "Yokenthiran Johnsan",
+    course: "Diploma in Environmental & Sustainable Engineering",
+    issueDate: "5th June 2025",
+    programDuration: "20th February 2024 - 19th February 2025",
+  },
 };
 
 const CertificateVerification = () => {
