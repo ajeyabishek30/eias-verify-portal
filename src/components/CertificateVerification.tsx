@@ -28,7 +28,7 @@ const certificateDatabase: Record<string, CertificateData> = {
     studentId: "EIAS/GBM/2024/017",
     studentName: "Mr Kajendran Jathushan",
     course: "Diploma in Global Business Management",
-    issueDate: "15 March 2025",
+    issueDate: "15th March 2025",
     programDuration: "19th February 2024 - 17th February 2025",
   },
   "EIAS/DIP/2024/1235": {
@@ -52,7 +52,7 @@ const certificateDatabase: Record<string, CertificateData> = {
     studentId: "EIAS/GBM/2024/024",
     studentName: "Vishnuvarathan Sithurshan",
     course: "Diploma in Global Business Management",
-    issueDate: "28 March 2024",
+    issueDate: "28th March 2024",
     programDuration: "13th February 2023 - 19th February 2024",
   },
   "EIAS/DIP/2023/1035": {
@@ -60,7 +60,7 @@ const certificateDatabase: Record<string, CertificateData> = {
     studentId: "EIAS/GBM/2023/027",
     studentName: "Suntharanathan Supalakshan",
     course: "Diploma in Global Business Management",
-    issueDate: "28 March 2024",
+    issueDate: "28th March 2024",
     programDuration: "13th February 2023 - 19th February 2024",
   },
   "EIAS/DIP/2024/1024": {
@@ -77,6 +77,14 @@ const certificateDatabase: Record<string, CertificateData> = {
     studentName: "Yokenthiran Johnsan",
     course: "Diploma in Environmental & Sustainable Engineering",
     issueDate: "5th June 2025",
+    programDuration: "20th February 2024 - 19th February 2025",
+  },
+  "EIAS/DIP/2024/1816": {
+    certificateNo: "EIAS/DIP/2024/1816",
+    studentId: "EIAS/ESE/2024/085",
+    studentName: "Keshika Tharmalingam",
+    course: "Diploma in Environmental & Sustainable Engineering",
+    issueDate: "5th April 2025",
     programDuration: "20th February 2024 - 19th February 2025",
   },
 };
