@@ -15,6 +15,22 @@ interface CertificateData {
 
 // Hardcoded certificate data based on the provided certificate
 const certificateDatabase: Record<string, CertificateData> = {
+  "EIAS/DIP/2024/1055": {
+    certificateNo: "EIAS/DIP/2024/1055",
+    studentId: "EIAS/ESE/2025/056",
+    studentName: "JEINISHIYA JEYASEELAN",
+    course: "Diploma in Environmental & Sustainable Engineering",
+    issueDate: "15th March 2025",
+    programDuration: "20th February 2024 - 19th February 2025",
+  },
+  "EIAS/DIP/2025/1244": {
+    certificateNo: "EIAS/DIP/2025/1244",
+    studentId: "EIAS/ESE/2025/056",
+    studentName: "SIVAMOHAN KIRISHANA",
+    course: "Diploma in Environmental & Sustainable Engineering",
+    issueDate: "15th March 2026",
+    programDuration: "20th February 2025 - 19th February 2026",
+  },
   "EIAS/DIP/2024/1031": {
     certificateNo: "EIAS/DIP/2024/1031",
     studentId: "EIAS/GBM/2024/025",
@@ -193,7 +209,7 @@ const CertificateVerification = () => {
                           <p className="text-sm text-muted-foreground">Student Name</p>
                           <p className="font-semibold text-foreground">{searchResult.studentName}</p>
                           <p className="text-sm text-muted-foreground mt-1">
-                            ID: {searchResult.studentId}
+                            Student Registration: {searchResult.studentId}
                           </p>
                         </div>
                       </div>
